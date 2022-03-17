@@ -10,3 +10,6 @@ gsap.to(`.img${index}`, {
   duration: 1,
 });
 */
+
+gsap.from(img1, { y: -300 });
+gsap.from(img1, { opacity: 0, duration: 2 });
