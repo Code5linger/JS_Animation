@@ -1,3 +1,20 @@
-body {
-  background-color: black;
+section {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 0.75rem;
+  color: white;
+  background: black;
+  transition: background 0.75s ease-out;
+}
+
+button:hover {
+  background: crimson;
 }
