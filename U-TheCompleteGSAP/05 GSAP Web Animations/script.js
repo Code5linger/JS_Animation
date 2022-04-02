@@ -38,3 +38,11 @@ TweenMax.to(".circle", 2, {
   ease: Elastic.easeOut,
 });
 */
+//5
+/*
+TweenMax.to(".circle", 2, {
+  backgroundColor: "gray",
+  x: 400,
+  ease: Elastic.easeIn,
+});
+*/
