@@ -86,3 +86,13 @@ TweenMax.to(".circle", 2, {
   ease: Elastic.easeOut,
 });
 */
+//gsap.to(".logo", { duration: 2, x: 300 });
+
+gsap.to(".logo", {
+  duration: 2,
+  x: 300,
+  backgroundColor: "#124563",
+  borderRadius: "10%",
+  border: "5px solid white",
+  ease: "elastic",
+});
