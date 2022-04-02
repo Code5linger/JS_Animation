@@ -96,3 +96,5 @@ gsap.to(".logo", {
   border: "5px solid white",
   ease: "elastic",
 });
+gsap.to(".logo, .autocad", { transformOrigin: "50% 50%" });
+gsap.to(".logo, .autocad", { duration: 20, rotation: 360 });
