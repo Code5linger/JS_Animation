@@ -79,8 +79,10 @@ TweenMax.to(".circle", 2, {
 });
 */
 //10
+/*
 TweenMax.to(".circle", 2, {
   backgroundColor: "red",
   x: 350,
   ease: Elastic.easeOut,
 });
+*/
