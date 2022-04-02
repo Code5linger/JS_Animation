@@ -22,9 +22,19 @@ TweenMax.to(".circle", 2, {
 });
 */
 //3
+/*
 TweenMax.to(".circle", 2, {
   backgroundColor: "red",
   x: 200,
   y: 100,
   ease: Elastic.easeOut,
 });
+*/
+//4
+/*
+TweenMax.to(".circle", 2, {
+  backgroundColor: "green",
+  x: -350,
+  ease: Elastic.easeOut,
+});
+*/
