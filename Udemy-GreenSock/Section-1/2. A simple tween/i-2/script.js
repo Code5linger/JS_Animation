@@ -11,3 +11,9 @@ TweenMax.to(".square", 2, {
   delay: 1,
   ease: Back.easeOut,
 });
+
+TweenMax.from("#ractangle", 2, {
+  y: 200,
+  rotate: 180,
+  scale: 2,
+});

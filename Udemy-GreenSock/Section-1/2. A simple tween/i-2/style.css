@@ -16,3 +16,9 @@ body {
   height: 150px;
   background-color: forestgreen;
 }
+
+#ractangle {
+  width: 200px;
+  height: 50px;
+  background-color: blueviolet;
+}
