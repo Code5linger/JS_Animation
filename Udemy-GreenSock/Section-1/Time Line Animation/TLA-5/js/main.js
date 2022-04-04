@@ -11,7 +11,7 @@ TweenMax.to(".rectangle", 1, {
   x: 100,
 });
 */
-
+/*
 let tl = new TimelineMax();
 
 tl.to(".circle", 1, {
@@ -23,3 +23,16 @@ tl.to(".circle", 1, {
   .to(".rectangle", 1, {
     x: 100,
   });
+*/
+
+TweenMax.staggerFrom(
+  ".triangle",
+  1,
+  {
+    x: 100,
+    y: 100,
+    opacity: 0,
+    ease: Back.easeOut,
+  },
+  0.1
+);
