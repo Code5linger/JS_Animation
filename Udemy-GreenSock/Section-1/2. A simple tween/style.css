@@ -1,0 +1,12 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.circle {
+  background-color: red;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
