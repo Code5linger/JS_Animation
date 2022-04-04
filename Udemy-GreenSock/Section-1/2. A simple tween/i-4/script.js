@@ -13,3 +13,9 @@ TweenMax.to(".square", 2, {
   //ease: Back.easeOut,
   ease: Elastic.easeOut,
 });
+
+TweenMax.from("#rectangle", 2, {
+  y: 200,
+  rotate: 720,
+  scale: 3,
+});
