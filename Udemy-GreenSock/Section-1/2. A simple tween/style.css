@@ -1,3 +1,5 @@
+/* iteration 1 */
+/*
 body {
   display: flex;
   justify-content: center;
@@ -8,5 +10,20 @@ body {
   height: 150px;
   width: 150px;
   background-color: orange;
+  border-radius: 50%;
+}
+*/
+/* iteration 2 */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.circle {
+  background-color: aqua;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
 }
