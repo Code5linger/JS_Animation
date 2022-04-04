@@ -11,7 +11,7 @@ TweenMax.to(".rectangle", 1, {
   x: 100,
 });
 */
-
+/*
 let tlAnimation = new TimelineMax();
 
 tlAnimation
@@ -24,3 +24,16 @@ tlAnimation
   .to(".rectangle", 1, {
     x: 100,
   });
+*/
+
+TweenMax.staggerFrom(
+  ".triangle",
+  1,
+  {
+    x: 200,
+    y: 200,
+    opacity: 0,
+    ease: Back.eaeOut,
+  },
+  0.1
+);
