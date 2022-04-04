@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.circle {
+  background-color: red;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.square {
+  background-color: blueviolet;
+  height: 200px;
+  width: 200px;
+}
