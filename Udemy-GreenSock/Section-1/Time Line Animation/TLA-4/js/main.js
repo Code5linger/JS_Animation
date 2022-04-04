@@ -25,7 +25,7 @@ tlAnimation
     x: 100,
   });
 */
-
+/*
 TweenMax.staggerFrom(
   ".triangle",
   1,
@@ -34,6 +34,19 @@ TweenMax.staggerFrom(
     y: 200,
     opacity: 0,
     ease: Back.eaeOut,
+  },
+  0.1
+);
+*/
+
+TweenMax.staggerFrom(
+  ".triangle",
+  1,
+  {
+    x: 200,
+    y: 200,
+    opacity: 0,
+    ease: Back.easeIn,
   },
   0.1
 );
