@@ -22,8 +22,14 @@ body {
 }
 
 .circle {
-  background-color: aqua;
+  background-color: blueviolet;
   height: 150px;
   width: 150px;
   border-radius: 50%;
+}
+
+.square {
+  background-color: green;
+  height: 200px;
+  width: 200px;
 }

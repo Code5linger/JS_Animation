@@ -1,10 +1,5 @@
-/*
-TweenMax.to(".circle", 2, {
-  x: 150,
-});
-*/
 TweenMax.to(".circle", 1, {
-  backgroundColor: "Red",
+  backgroundColor: "Gold",
   x: 100,
   y: 100,
 });
@@ -12,8 +7,7 @@ TweenMax.to(".circle", 1, {
 TweenMax.to(".square", 2, {
   x: -150,
   y: -150,
-  scale: 2,
-  delay: 1,
+  backgroundColor: "blue",
   ease: Back.easeOut,
-  //ease: Elastic.easeOut,
+  delay: 1,
 });
