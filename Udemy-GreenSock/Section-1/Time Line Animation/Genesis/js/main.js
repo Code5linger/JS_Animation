@@ -75,7 +75,7 @@ tl.to(".circle", 1, { x: 100 })
   .to(".rectangle", 1, { x: 100 }, 5);
 
 */
-
+/*
 let tl = new TimelineMax();
 
 tl.staggerFrom(".shape", 0.5, { x: 50, y: 50, opacity: 0 }, 0.2);
@@ -111,3 +111,14 @@ $(".seekButton").click(function () {
 $(".progressButton").click(function () {
   tl.progress(0.7);
 });
+*/
+
+TweenMax.fromTo(".circle", 1, { x: -100, scale: 0 }, { x: 100, scale: 1.5 });
+
+TweenMax.staggerFromTo(
+  ".triangle",
+  1,
+  { y: 100, x: 100 },
+  { y: -50, x: -50 },
+  0.2
+);
