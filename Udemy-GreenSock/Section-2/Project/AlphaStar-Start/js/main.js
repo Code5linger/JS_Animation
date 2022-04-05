@@ -32,7 +32,6 @@ $(".closeButton").click(function () {
 });
 
 //Hero Section
-
 TweenMax.fromTo(
   "#hero h1",
   0.5,
@@ -64,7 +63,6 @@ TweenMax.fromTo(
 );
 
 //Column Section
-
 $(".fourColItem").hover(
   function () {
     TweenMax.to($(this), 0.5, {
@@ -87,7 +85,6 @@ $(".fourColItem").hover(
 );
 
 //Services Section
-
 TweenMax.set(".serviceBoxInner", { y: 200, opacity: 0 });
 
 $(".serviceBox").hover(
@@ -105,3 +102,15 @@ $(".serviceBox").hover(
     });
   }
 );
+
+//Cog Section
+TweenMax.to(".cogLeft", 8, {
+  rotation: 360,
+  repeat: -1,
+  ease: Linear.easeNone,
+});
+TweenMax.to(".cogRight", 8, {
+  rotation: -360,
+  repeat: -1,
+  ease: Linear.easeNone,
+});
