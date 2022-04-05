@@ -85,3 +85,23 @@ $(".fourColItem").hover(
     });
   }
 );
+
+//Services Section
+
+TweenMax.set(".serviceBoxInner", { y: 200, opacity: 0 });
+
+$(".serviceBox").hover(
+  function () {
+    TweenMax.to($(this).find(".serviceBoxInner"), 0.5, {
+      y: 0,
+      opacity: 1,
+      ease: Back.easeOut,
+    });
+  },
+  function () {
+    TweenMax.to($(this).find(".serviceBoxInner"), 0.5, {
+      y: 200,
+      opacity: 0,
+    });
+  }
+);
