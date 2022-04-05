@@ -53,6 +53,7 @@ tl.to(".oval", 1, {
   x: 100,
 });
 */
+/*
 TweenMax.set(".oval", {
   x: -100,
 });
@@ -64,3 +65,12 @@ tl.to(".oval", 1, {
 }).to(".oval", 1, {
   x: -100,
 });
+*/
+/*
+let tl = new TimelineMax();
+
+tl.to(".circle", 1, { x: 100 })
+  .to(".square", 1, { x: 100 })
+  .to(".rectangle", 1, { x: 100 }, 5);
+
+*/
