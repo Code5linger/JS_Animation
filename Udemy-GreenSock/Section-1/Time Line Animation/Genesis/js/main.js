@@ -115,10 +115,7 @@ $(".progressButton").click(function () {
 
 TweenMax.fromTo(".circle", 1, { x: -100, scale: 0 }, { x: 100, scale: 1.5 });
 
-TweenMax.staggerFromTo(
-  ".triangle",
-  1,
-  { y: 100, x: 100 },
+TweenMax.staggerFromTo(".triangle", 1,{ y: 100, x: 100 },
   { y: -50, x: -50 },
   0.2
 );
