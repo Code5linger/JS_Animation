@@ -43,5 +43,45 @@ TweenMax.fromTo(
   {
     y: 0,
     opacity: 1,
+    delay: 0.8,
+  }
+);
+
+//Hero Section - Button
+TweenMax.fromTo(
+  "#hero .learnMoreButton",
+  0.6,
+  {
+    y: 80,
+    opacity: 0,
+  },
+  {
+    y: 0,
+    opacity: 1,
+    delay: 1.2,
+    ease: Back.easeOut,
+  }
+);
+
+//Column Section
+
+$(".fourColItem").hover(
+  function () {
+    TweenMax.to($(this), 0.5, {
+      y: -10,
+      scale: 1.05,
+    });
+    TweenMax.to($(this), 0.5, {
+      boxShadow: "0 0 20px rgba(0,0,0,0.36)",
+    });
+  },
+  function () {
+    TweenMax.to($(this), 0.5, {
+      y: 0,
+      scale: 1,
+    });
+    TweenMax.to($(this), 0.5, {
+      boxShadow: "0 0 20px rgba(0,0,0,0.06)",
+    });
   }
 );
