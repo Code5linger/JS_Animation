@@ -1,5 +1,7 @@
 * {
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /*
 .imgSlide {
@@ -8,5 +10,13 @@
   justify-content: center;
   margin: 0;
   padding: 0;
+}
+*/
+/*
+.imgContainer {
+  height: 300px;
+  width: 250px;
+  overflow: hidden;
+  object-fit: cover;
 }
 */
