@@ -1,4 +1,4 @@
-let tl = new TimelineMax({ repeat: -1 });
+let tl = new TimelineMax({ delay: 5, repeat: -1 });
 /*
 tl.to(".img1", 1, {
   x: -600,
@@ -34,8 +34,8 @@ tl.to(".img1", 1, {
 
 tl.fromTo(".img1", { x: 0 }, { x: -250 }, "100%");
 tl.fromTo(".img2", { x: 0 }, { x: -250 }, "100%");
-tl.fromTo(".img2", { x: -250 }, { x: -250, delay: 1 }, "100%");
+tl.fromTo(".img2", { x: -250 }, { x: -250, delay: 5 }, "100%");
 
 tl.fromTo(".img2", { x: 0 }, { x: -250 }, "100%");
 tl.fromTo(".img3", { x: 0 }, { x: -250 }, "100%");
-tl.fromTo(".img3", { x: 0 }, { x: -500, delay: 1 }, "100%");
+tl.fromTo(".img3", { x: 0 }, { x: -500, delay: 6 }, "100%");
