@@ -13,15 +13,15 @@ body {
   flex-direction: row;
   align-items: center;
   position: relative;
-  height: 300px;
-  width: 250px;
+  height: 600px;
+  width: 160px;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
 .container img {
-  width: 300px;
+  width: 160px;
   background-size: cover;
 }
 
@@ -32,24 +32,25 @@ body {
   align-items: center;
   justify-content: center;
   position: absolute;
-  height: 300px;
-  width: 250px;
+  height: 600px;
+  width: 160px;
 }
 
 /*Text Content - WorkWear */
 .hero-header {
   color: #ff6c2c;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 0.85rem;
+  font-size: 1.3rem;
   font-weight: bolder;
-  padding-bottom: 75px;
+  padding-bottom: 310px;
 }
+/*Text Content - Hemp Chef's Apron*/
 
 /*Text Content - Hemp*/
 .hero-cta1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,10 +60,11 @@ body {
 .hero-cta2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 20px;
 }
 
 .button {
@@ -70,6 +72,7 @@ body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  padding-bottom: 20px;
 }
 
 .button:hover {
@@ -96,8 +99,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 10px;
+  font-size: 25px;
   font-style: italic;
   font-weight: bold;
   color: white;
+  padding-top: 20px;
 }
