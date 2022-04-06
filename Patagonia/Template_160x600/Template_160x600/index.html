@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700"
+      rel="stylesheet"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="../Template_160x600/css/styles.css"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <div id="text"></div>
+      <img id="image" src="" />
+      <a id="cta" href="#"></a>
+    </div>
+    <script src="https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js"></script>
+    <script src="../Template_160x600/manifest.js"></script>
+    <script>
+      function init() {
+        var container = document.getElementById("container");
+        var textElement = document.getElementById("text");
+        var imageElement = document.getElementById("image");
+        var ctaElement = document.getElementById("cta");
+
+        ctaElement.innerHTML = myFT.instantAds.dynamicCTA;
+        textElement.innerHTML = myFT.instantAds.dynamicText;
+        imageElement.src = myFT.instantAds.dynamicImage;
+
+        myFT.applyClickTag(container, 1, myFT.instantAds.dynamicClicktag);
+
+        container.style.opacity = 1;
+        textElement.style.marginTop = "15px";
+        ctaElement.style.opacity = 1;
+      }
+
+      myFT.on("instantads", init); //initialize ad once ready
+    </script>
+  </body>
+</html>
