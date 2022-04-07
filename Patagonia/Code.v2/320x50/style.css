@@ -17,9 +17,7 @@ body {
   width: 300px;
   margin: 0;
   padding: 0;
-  /*
   overflow: hidden;
-  */
 }
 
 .container img {
@@ -89,7 +87,7 @@ body {
   align-items: center;
   justify-content: center;
   margin: 0.25rem;
-  padding: 4px 12px;
+  padding: 3px 9px;
   background: #ff6c2c;
   font-family: sans-serif;
   border-radius: 3rem;
@@ -100,18 +98,15 @@ body {
   font-weight: 800;
 }
 
-
 .logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  /*
-  font-size: 25px;
-  */
+
+  font-size: 14px;
+
   font-style: italic;
   font-weight: bold;
   color: white;
-  /*
-  padding-top: 20px;
-  */
+  padding-left: 12px;
 }
