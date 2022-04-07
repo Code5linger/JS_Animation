@@ -13,15 +13,15 @@ body {
   flex-direction: row;
   align-items: center;
   position: relative;
-  height: 60px;
-  width: 468px;
+  height: 90px;
+  width: 728px;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
 .container img {
-  width: 468px;
+  width: 728px;
   background-size: cover;
 }
 
@@ -32,8 +32,8 @@ body {
   align-items: center;
   justify-content: center;
   position: absolute;
-  height: 60px;
-  width: 468px;
+  height: 90px;
+  width: 728px;
 }
 
 /*Text Content - WorkWear */
