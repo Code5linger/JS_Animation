@@ -31,6 +31,7 @@ tl.to(".img1", 1, {
     delay: 1,
   })
   */
+
 tl.fromTo(".img1", { x: 0, delay: 5 }, { x: 0 }, "100%");
 tl.fromTo(".img1", { x: 0 }, { x: -300 }, "100%");
 tl.fromTo(".img2", { x: 0 }, { x: -300 }, "100%");
