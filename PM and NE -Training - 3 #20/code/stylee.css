@@ -120,18 +120,51 @@ body {
 
 .cta-btn {
   margin: 1rem;
-  padding: 0.7rem 2rem;
+  padding: 1.4rem 4rem;
   background: white;
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
+  font-weight: bold;
   border-radius: 0.3rem;
   color: rgb(33, 33, 33);
   border: none;
   border-radius: 2rem;
-  font-size: 0.7rem;
+  font-size: 1.7rem;
   /*Added from Old*/
   position: absolute;
   top: 300px;
   left: 30px;
   transform: translateY(20%, 20%);
+}
+
+.footnote {
+  position: absolute;
+  top: 480px;
+  left: 10px;
+  transform: translateY(20%, 20%);
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: underline;
+}
+
+.credits {
+  position: absolute;
+  top: 420px;
+  left: 405px;
+  transform: translateY(20%, 20%);
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  text-align: end;
+}
+
+nav {
+  position: fixed;
+  height: 10vh;
+  z-index: 200;
+  width: 100%;
+  /*visibility: hidden;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: blueviolet;
 }

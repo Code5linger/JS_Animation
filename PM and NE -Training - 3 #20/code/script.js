@@ -33,7 +33,20 @@ TweenMax.fromTo(".cta1", 1, { y: 0, opacity: 1 }, { y: 0, opacity: 0 }, "+=2");
 TweenMax.fromTo(".cta2", 1, { y: 0, opacity: 0 }, { y: 0, opacity: 1 });
 TweenMax.fromTo(".cta2", 1, { y: 0, opacity: 1 }, { y: 0, opacity: 0 }, "+=2");
 */
+/*
+let tl = new TimelineMax();
 
+tl.to(".cta-btn", 1, { x: 100, opacity: 1 });
+
+*/
+/*
+TweenMax.fromTo(".cta-btn", 1, { x: -100, opacity: 0 }, { x: 0, opacity: 1 });
+*/
+let tl = gsap.timeline({
+  defaults: { duration: 0.75, ease: Power3.easeOut },
+});
+
+tl.fromTo(".cta-btn", { x: -100, opacity: 0.5 }, { x: 0, opacity: 1 });
 /*Not My Code */
 
 var container = document.querySelector("#imgContainer"),
