@@ -1,3 +1,21 @@
-* {
+body {
   margin: 0 auto;
+}
+/* Background image & Logo */
+.container img {
+  border: 1px solid black;
+}
+/* Background image */
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 1px red solid;
+}
+/* Logo */
+.image2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 1px green solid;
 }
