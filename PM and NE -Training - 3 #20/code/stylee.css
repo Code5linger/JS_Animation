@@ -78,7 +78,7 @@ body {
 /*Not My Code*/
 
 #imgContainer {
-  border: 2px solid black;
+  /*border: 2px solid black;*/
   position: absolute;
   margin: 30px;
   width: 500px;
