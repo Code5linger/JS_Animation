@@ -1,9 +1,20 @@
+let tl = new TimelineMax({ repeat: -1 });
+
+tl.fromTo(".imgContainer", { x: 0 }, { x: 0, duration: 2 });
+tl.fromTo(".imgContainer", { x: 0 }, { x: -300, duration: 2, delay: 2 });
+tl.fromTo(".imgContainer", { x: -300 }, { x: -600, duration: 2, delay: 2 });
+tl.fromTo(".imgContainer", { x: -600 }, { x: -900, duration: 2, delay: 2 });
+tl.fromTo(".imgContainer", { x: -900 }, { x: -1200, duration: 2, delay: 2 });
+tl.fromTo(".imgContainer", { x: -1200 }, { x: -1500, duration: 2, delay: 2 });
+
+/*
 let tl = new TimelineMax({});
 
 tl.fromTo(".img1", { x: 0 }, { x: 0, duration: 2 });
 tl.fromTo(".img1", { x: 0 }, { x: -300, duration: 1 }, "-150%");
 tl.fromTo(".img2", { x: 0 }, { x: -300, duration: 1 }, "-150%");
-
+tl.fromTo(".img3", { x: 0 }, { x: -300, duration: 1 }, "-150%");
+*/
 //tl.fromTo(".img2", { x: -300 }, { x: -600, duration: 2 }, "-50%");
 //tl.fromTo(".img3", { x: -300 }, { x: -600, duration: 2 }, "-50%");
 
