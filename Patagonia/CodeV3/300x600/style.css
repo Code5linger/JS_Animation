@@ -20,6 +20,10 @@ body {
   overflow: hidden;
 }
 
+.imgContainer {
+  display: flex;
+  flex-direction: row;
+}
 .container img {
   width: 300px;
   background-size: cover;
