@@ -38,102 +38,116 @@ body {
   z-index: 100;
 }
 
-.container h2 {
+#divtest {
+  /*
+  width: 200px;
+  height: 200px;
+  margin-top: 10px;
+  color: Black;
+  font-size: 20rem;
+  */
+  /*border: 1px solid black;*/
+  position: absolute;
+  margin: 30px;
+  width: 500px;
+  height: 200px;
+  overflow: hidden;
+  /*Added from Old*/
+  top: 75px;
+  left: 15px;
+  font-size: 3rem;
+  color: white;
+}
+
+.cta-btn {
+  margin: 1rem;
+  padding: 0.8rem 2rem;
+  background: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  border-radius: 0.3rem;
+  color: rgb(33, 33, 33);
+  border: none;
+  border-radius: 2rem;
+  font-size: 1.7rem;
+  /*Added from Old*/
+  position: absolute;
+  top: 300px;
+  left: 30px;
+  transform: translateY(20%, 20%);
+}
+
+.credits {
+  position: absolute;
+  top: 420px;
+  left: 405px;
+  transform: translateY(20%, 20%);
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  text-align: end;
+}
+
+/*Footnote*/
+.footnote {
   border: 1px solid black;
   position: absolute;
-  top: 10%;
-  line-height: 50px;
-  height: 200px;
-  width: 400px;
-  margin-top: 0px;
-  margin-left: 50px;
-  font-size: 3rem;
-  text-align: left;
-  color: transparent;
-  animation: BlurFadeInOut 3s ease-in backwards;
+  top: 480px;
+  left: 10px;
+  transform: translateY(20%, 20%);
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: underline;
+  z-index: 200;
 }
 
-.container h2.frame-1 {
-  animation-delay: 0s;
+nav {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  z-index: 200;
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #0074c4;
 }
-.container h2.frame-2 {
-  animation-delay: 3s;
-}
-.container h2.frame-3 {
-  animation-delay: 6s;
-}
-.container h2.frame-4 {
-  /*font-size: 200px;*/
-  animation-delay: 6s;
-}
-.container h2.frame-5 {
-  animation: none;
-  color: transparent;
-  text-shadow: 0px 0px 1px #ffffff;
-}
-
-.container h2.frame-5 span {
-  animation: blurFadeIn 3s ease-in 12s backwards;
-  color: transparent;
-  text-shadow: 0px 0px 1px #fff;
-}
-
-.container h2.frame-5 span:nth-child(2) {
-  animation-delay: 1s;
-}
-
-.container h2.frame-5 span:nth-child(3) {
-  animation-delay: 2s;
-}
-/*Global*/
 /*
-.global {
+
+.closeButton {
+  color: #fff;
+  font-size: 48px;
+  margin: 0;
   position: absolute;
-  width: 282px;
-  height: 273px;
-  left: 50%;
-  top: 50%;
-  margin: -137px 0 0 -141px;
-  background: transparent;
-  animation: fadeInBack 3.69s linear 14s backwards;
-  filter: alpha(opacity=30);
-  opacity: 0.3;
+  top: 10px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.burgerIcon {
+  position: absolute;
+  top: 30px;
+  right: 36px;
+  cursor: pointer;
+  z-index: 20;
+}
+
+.burgerLine {
+  color: #fff;
+  font-size: 48px;
+  margin: 0;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.navMenu {
+  display: flex;
+  flex-direction: row;
+}
+
+.navMenu li {
+  list-style: none;
 }
 */
-@keyframes BlurFadeInOut {
-  0% {
-    opacity: 0;
-    text-decoration: 0px 0px 40px #fff;
-  }
-  20%,
-  75% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes blurFadeIn {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeInBack {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.4;
-  }
-  100% {
-    opacity: 0.2;
-  }
-}
