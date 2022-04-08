@@ -137,6 +137,7 @@ body {
 }
 
 .footnote {
+  border: 1px solid black;
   position: absolute;
   top: 480px;
   left: 10px;
@@ -144,6 +145,7 @@ body {
   color: white;
   font-family: "Courier New", Courier, monospace;
   text-decoration: underline;
+  z-index: 200;
 }
 
 .credits {
@@ -155,16 +157,67 @@ body {
   font-family: "Courier New", Courier, monospace;
   text-align: end;
 }
-
+/*
 nav {
   position: fixed;
   height: 10vh;
   z-index: 200;
   width: 100%;
-  /*visibility: hidden;*/
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   background-color: blueviolet;
+}
+*/
+/*Footnote*/
+
+nav {
+  position: fixed;
+  height: 10vh;
+  width: 100%;
+  z-index: 200;
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #0074c4;
+}
+
+.closeButton {
+  color: #fff;
+  font-size: 48px;
+  margin: 0;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.burgerIcon {
+  position: absolute;
+  top: 30px;
+  right: 36px;
+  cursor: pointer;
+  z-index: 20;
+}
+
+.burgerLine {
+  color: #fff;
+  font-size: 48px;
+  margin: 0;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.navMenu {
+  display: flex;
+  flex-direction: row;
+}
+
+.navMenu li {
+  list-style: none;
 }
